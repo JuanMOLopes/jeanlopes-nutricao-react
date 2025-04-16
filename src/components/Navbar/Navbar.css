@@ -1,0 +1,102 @@
+nav {
+  width: 50%;
+  max-width: 800px; /* Limita a largura máxima */
+  background-color: #000;
+  padding: 20px 40px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-family: "Arial", sans-serif;
+  margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap; /* Permite que os itens quebrem linha em telas pequenas */
+  justify-content: center; /* Centraliza os itens quando quebram linha */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  position: relative;
+  padding: 8px 5px;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+}
+
+nav ul li a:hover {
+  color: #e2b714;
+  transform: translateY(-2px);
+}
+
+nav ul li a.active {
+  color: #e2b714;
+}
+
+nav ul li a.active::after,
+nav ul li a:hover::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #e2b714;
+  border-radius: 2px;
+  transform: scaleX(1);
+  transition: transform 0.3s ease;
+}
+
+/* Efeito de sublinhado animado */
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #e2b714;
+  border-radius: 2px;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  transform-origin: right;
+}
+
+nav ul li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  nav {
+    width: 80%;
+    padding: 15px 20px;
+    border-radius: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  nav ul {
+    gap: 20px;
+  }
+
+  nav ul li a {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  nav ul {
+    gap: 12px;
+  }
+}
