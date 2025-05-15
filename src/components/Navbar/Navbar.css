@@ -28,3 +28,8 @@ a:hover {
   background-color: var(--ghostwhite);
   color: var(--harvest-gold);
 }
+
+/* Modo Escuro */
+body.modo-escuro header {
+  color: var(--onyx);
+}
