@@ -1,0 +1,33 @@
+/* Modo Claro */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  max-width: 100vw;
+  height: 4rem;
+  background-color: var(--harvest-gold);
+}
+
+footer img {
+  width: 35px;
+  height: 35px;
+  margin-left: 1.75rem;
+  user-select: none;
+}
+
+footer .contato {
+  display: flex;
+  align-items: center;
+}
+
+footer .endereco {
+  color: var(--ghostwhite);
+  margin-right: 1.75rem;
+}
+
+/* Modo Escuro */
+body.modo-escuro footer {
+  background-color: var(--onyx);
+}

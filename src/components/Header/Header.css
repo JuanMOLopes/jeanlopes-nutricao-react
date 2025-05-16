@@ -14,31 +14,31 @@ header img {
   border-radius: 50%;
 }
 
-.logo {
+header .logo {
   display: flex;
   align-items: center;
   user-select: none;
 }
 
-.logo .nome {
+header .logo .nome {
   display: flex;
   flex-direction: column;
   margin-left: -0.75rem;
 }
 
-.nome p {
+header .logo .nome p {
   font-size: 2rem;
   color: var(--ghostwhite);
   font-weight: 700;
   width: 15rem;
 }
 
-.nome .p-nome {
+header .logo .nome .p-nome {
   font-size: 1.6rem;
   font-weight: normal;
 }
 
-.navbar {
+header .navbar {
   display: flex;
   align-items: center;
 }

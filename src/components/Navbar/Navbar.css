@@ -1,4 +1,4 @@
-ul {
+nav ul {
   height: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -7,11 +7,11 @@ ul {
   margin-right: 1rem;
 }
 
-ul li {
+nav ul li {
   list-style: none;
 }
 
-a {
+nav ul li a {
   text-decoration: none;
   color: var(--ghostwhite);
   text-align: center;
@@ -23,7 +23,7 @@ a {
   margin-left: 0.5rem;
 }
 
-a:hover {
+nav ul li a:hover {
   font-weight: bold;
   background-color: var(--ghostwhite);
   color: var(--harvest-gold);
