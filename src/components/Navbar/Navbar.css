@@ -30,6 +30,6 @@ nav ul li a:hover {
 }
 
 /* Modo Escuro */
-body.modo-escuro header {
+body.modo-escuro nav ul li a:hover {
   color: var(--onyx);
 }
