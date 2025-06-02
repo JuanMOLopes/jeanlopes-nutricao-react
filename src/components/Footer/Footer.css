@@ -21,11 +21,12 @@ footer img {
 footer .contato {
   display: flex;
   align-items: center;
+  margin-left: 3rem;
 }
 
 footer .endereco {
   color: var(--ghostwhite);
-  margin-right: 1.75rem;
+  margin-right: 5rem;
 }
 
 /* Modo Escuro */

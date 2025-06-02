@@ -7,6 +7,7 @@ header {
   max-width: 100vw;
   background-color: var(--harvest-gold);
   transition: background-color 0.3s;
+  height: 7rem;
 }
 
 header img {
@@ -19,6 +20,7 @@ header .logo {
   display: flex;
   align-items: center;
   user-select: none;
+  margin-left: 3rem;
 }
 
 header .logo .nome {
@@ -42,6 +44,7 @@ header .logo .nome .p-nome {
 header .navbar {
   display: flex;
   align-items: center;
+  margin-right: 3rem;
 }
 
 /* Modo Escuro */

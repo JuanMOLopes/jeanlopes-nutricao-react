@@ -23,7 +23,15 @@ function ModoEscuro() {
         setModoEscuro(!modoEscuro);
       }}
     >
-      {modoEscuro ? "☀︎" : "⏾"}
+      {modoEscuro ? (
+        <i class="material-icons" title="Modo claro">
+          light_mode
+        </i>
+      ) : (
+        <i class="material-icons" title="Modo escuro">
+          dark_mode
+        </i>
+      )}
     </button>
   );
 }

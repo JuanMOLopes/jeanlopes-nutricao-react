@@ -1,15 +1,19 @@
 import "./App.css";
 
 import Header from "./components/Header/Header";
-import BtnContato from "./components/BtnContato/BtnContato";
+import Hero from "./sections/Hero/Hero";
 import Footer from "./components/Footer/Footer";
+
+import BtnContato from "./components/BtnContato/BtnContato";
 
 function App() {
   return (
     <>
       <Header />
-      <BtnContato />
+      <Hero />
       <Footer />
+
+      <BtnContato/>
     </>
   );
 }
