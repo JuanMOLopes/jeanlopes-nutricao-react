@@ -1,0 +1,27 @@
+.cards {
+  background-image: url(/wave-haikei-light-top.svg);
+  transition: background-image 0.3s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.cta-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+body.modo-escuro .cards {
+  background-image: url(/wave-haikei-dark-top.svg);
+}

@@ -2,7 +2,7 @@ import "./App.css";
 
 import Header from "./components/Header/Header";
 import Hero from "./sections/Hero/Hero";
-import Bio from "./sections/Bio/Bio";
+import Cards from "./sections/Cards/Cards";
 import Footer from "./components/Footer/Footer";
 
 import BtnContato from "./components/BtnContato/BtnContato";
@@ -12,7 +12,7 @@ function App() {
     <>
       <Header />
       <Hero />
-      <Bio />
+      <Cards />
       <Footer />
 
       <BtnContato />

@@ -1,0 +1,53 @@
+a {
+  text-decoration: none;
+}
+
+.card {
+  width: 20rem;
+  height: 30rem;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background-size: cover;
+  background-position: center;
+  transition: all 0.4s ease-in-out; /* Transição suave para todas as propriedades */
+  cursor: pointer;
+  user-select: none;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.02); /* Adiciona um leve zoom */
+}
+
+.card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+}
+
+.card .material-icons {
+  font-size: 3.75rem;
+  color: white;
+  margin-bottom: 8px;
+  z-index: 1;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.card p {
+  color: white;
+  text-align: center;
+  padding: 0 16px 16px;
+  margin: 0;
+  z-index: 1;
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
