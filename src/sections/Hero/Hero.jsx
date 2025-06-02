@@ -1,24 +1,28 @@
+import CtaButton from "../../components/CtaButton/CtaButton";
 import "./Hero.css";
-import BtnContato from "../../components/BtnContato/BtnContato";
 
 function Hero() {
   return (
     <>
-      <section id="hero">
-        <div className="container">
-          <h1>Bem-vindo ao meu site!</h1>
+      <section class="hero" id="hero">
+        <div class="hero-content">
+          <h1>Jean de Oliveira Lopes</h1>
+          <h2>Nutricionista Clínico</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            voluptatibus, doloremque, voluptas, quia, ipsa, aspernatur
-            necessitatibus, doloremque, voluptas, quia, ipsa, aspernatur
-            necessitatibus, doloremque, voluptas, quia, ipsa, aspernatur
-            necessitatibus.
+            Minha paixão? Alimentação! Meu propósito? Transformar vidas!
           </p>
-          <BtnContato />
+          <CtaButton/>
+        </div>
+
+        <div class="hero-image">
+          <img
+            src="/jean-hero.png"
+            alt="Jean de Oliveira Lopes - Nutricionista"
+          />
         </div>
       </section>
     </>
-    );
+  );
 }
 
 export default Hero;
