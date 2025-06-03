@@ -11,6 +11,10 @@ header {
   padding: 0 1rem;
   box-sizing: border-box;
   overflow-x: hidden;
+
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 header img {
