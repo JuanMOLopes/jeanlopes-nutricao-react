@@ -3,13 +3,13 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%; 
+  width: 100%;
   max-width: 100%;
   background-color: var(--harvest-gold);
   transition: background-color 0.3s;
   height: 7rem;
   padding: 0 1rem;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   overflow-x: hidden;
 }
 
@@ -23,8 +23,8 @@ header .logo {
   display: flex;
   align-items: center;
   user-select: none;
-  margin-left: 1rem; 
-  flex-shrink: 0; 
+  margin-left: 1rem;
+  flex-shrink: 0;
 }
 
 header .logo .nome {
@@ -37,10 +37,10 @@ header .logo .nome p {
   font-size: 2rem;
   color: var(--ghostwhite);
   font-weight: 700;
-  max-width: 15rem; 
+  max-width: 15rem;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis; 
+  text-overflow: ellipsis;
 }
 
 header .logo .nome .p-nome {
@@ -53,7 +53,7 @@ header .navbar {
   align-items: center;
   margin-right: 1rem;
   flex-wrap: wrap;
-  gap: 1rem; 
+  gap: 1rem;
 }
 
 /* Modo Escuro */
@@ -90,26 +90,11 @@ body.modo-escuro header {
 
   header .logo .nome p {
     font-size: 2.5rem;
-    max-width: 100%; 
-    white-space: normal; 
+    max-width: 100%;
+    white-space: normal;
   }
 
   header .logo .nome .p-nome {
     font-size: 1.2rem;
-  }
-}
-
-@media (max-width: 425px) {
-  header img {
-    width: 60px;
-    height: 60px;
-  }
-
-  header .logo .nome p {
-    font-size: 1.2rem;
-  }
-
-  header .logo .nome .p-nome {
-    font-size: 1rem;
   }
 }
