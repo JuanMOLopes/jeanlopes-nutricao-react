@@ -5,7 +5,7 @@ import Whatsapp from "/whatsapp.png";
 
 function Footer() {
   return (
-    <footer>
+    <footer id="footer">
       <div className="contato">
         <a href="https://www.instagram.com/nutrijeanlopes?igsh=dGQzMjhoZW00NHc0&utm_source=qr" target="_blank"><img
           src={Instagram}
