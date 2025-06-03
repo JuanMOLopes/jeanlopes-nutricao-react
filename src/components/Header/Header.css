@@ -97,10 +97,6 @@ body.modo-escuro header {
   header .logo .nome .p-nome {
     font-size: 1.2rem;
   }
-
-  header .navbar {
-    display: none;
-  }
 }
 
 @media (max-width: 425px) {
@@ -115,9 +111,5 @@ body.modo-escuro header {
 
   header .logo .nome .p-nome {
     font-size: 1rem;
-  }
-
-  header .navbar {
-    display: none;
   }
 }
