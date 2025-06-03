@@ -22,6 +22,27 @@
   margin-top: -4rem;
 }
 
+/* Modo escuro */
 body.modo-escuro .cards {
   background-image: url(/wave-haikei-dark-top.svg);
+}
+
+/* Responsividade para telas menores que 1023px */
+@media (max-width: 1023px) {
+  .cards {
+    height: auto;
+    background-size: cover;
+    background-position: center top;
+    padding: 2rem 1rem;
+  }
+
+  .cards-container {
+    flex-direction: column;
+    height: auto;
+    gap: 2rem;
+  }
+
+  .cta-center {
+    margin-top: 2rem;
+  }
 }

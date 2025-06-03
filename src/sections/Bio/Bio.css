@@ -47,12 +47,19 @@
   text-align: justify;
 }
 
-/* Responsivo para telas menores */
-@media (max-width: 768px) {
+/* Responsividade para telas menores que 1023px */
+@media (max-width: 1023px) {
   .bio {
     flex-direction: column;
     padding: 2rem 5%;
+    height: auto;
     text-align: center;
+    background-position: center bottom;
+  }
+
+  .bio-image,
+  .bio-content {
+    margin-top: 0;
   }
 
   .bio-content h1 {
@@ -61,6 +68,7 @@
 
   .bio-content p {
     font-size: 1.1rem;
+    text-align: center;
   }
 }
 

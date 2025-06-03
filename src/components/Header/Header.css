@@ -51,3 +51,46 @@ header .navbar {
 body.modo-escuro header {
   background-color: var(--onyx);
 }
+
+/* Responsividade para telas menores que 1023px */
+@media (max-width: 1023px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 1rem 1rem;
+  }
+
+  header .logo {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  header img {
+    width: 80px;
+    height: 80px;
+  }
+
+  header .logo .nome {
+    margin-left: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  header .logo .nome p {
+    font-size: 1.5rem;
+    width: auto;
+  }
+
+  header .logo .nome .p-nome {
+    font-size: 1.2rem;
+  }
+
+  header .navbar {
+    margin-right: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

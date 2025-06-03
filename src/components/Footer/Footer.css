@@ -9,6 +9,8 @@ footer {
   height: 4rem;
   background-color: var(--harvest-gold);
   transition: background-color 0.3s;
+  padding: 0 1rem; /* para dar um espaçamento lateral */
+  box-sizing: border-box;
 }
 
 footer img {
@@ -27,9 +29,55 @@ footer .contato {
 footer .endereco {
   color: var(--ghostwhite);
   margin-right: 5rem;
+  white-space: nowrap; /* evita que o texto quebre em múltiplas linhas */
 }
 
 /* Modo Escuro */
 body.modo-escuro footer {
   background-color: var(--onyx);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+    align-items: flex-start;
+  }
+
+  footer img {
+    margin-left: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  footer .contato {
+    margin-left: 0;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  footer .endereco {
+    margin-right: 0;
+    white-space: normal;
+  }
+}
+
+@media (max-width: 425px) {
+  footer {
+    padding: 0.75rem 1rem;
+  }
+
+  footer img {
+    width: 30px;
+    height: 30px;
+  }
+
+  footer .contato {
+    font-size: 0.9rem;
+  }
+
+  footer .endereco {
+    font-size: 0.85rem;
+  }
 }

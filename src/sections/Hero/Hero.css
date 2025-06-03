@@ -43,3 +43,29 @@
 body.modo-escuro .hero {
   background: var(--onyx);
 }
+
+/* Responsividade para telas menores que 1023px */
+@media (max-width: 1023px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    gap: 2rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .hero-image {
+    max-width: 80%;
+  }
+}
