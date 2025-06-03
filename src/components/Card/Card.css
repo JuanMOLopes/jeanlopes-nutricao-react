@@ -16,7 +16,6 @@ a {
   background-size: cover;
   background-position: center;
   transition: all 0.4s ease-in-out; /* Transição suave para todas as propriedades */
-  cursor: pointer;
   user-select: none;
 }
 

@@ -53,6 +53,12 @@
   margin-top: -8rem;
 }
 
+/* Modo escuro */
+body.modo-escuro .contact {
+  background: var(--onyx);
+  color: var(--ghostwhite);
+}
+
 /* Responsivo */
 @media (max-width: 768px) {
   .contact {
