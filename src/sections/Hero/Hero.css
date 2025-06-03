@@ -51,6 +51,8 @@ body.modo-escuro .hero {
     text-align: center;
     padding: 2rem 1.5rem;
     gap: 2rem;
+
+    margin-top: -1rem;
   }
 
   .hero-content h1 {
