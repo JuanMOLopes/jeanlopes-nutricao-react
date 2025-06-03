@@ -47,7 +47,7 @@ body.modo-escuro .hero {
 /* Responsividade para telas menores que 1023px */
 @media (max-width: 1023px) {
   .hero {
-    flex-direction: column;
+    flex-direction: column-reverse;
     text-align: center;
     padding: 2rem 1.5rem;
     gap: 2rem;

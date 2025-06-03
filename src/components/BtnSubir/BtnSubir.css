@@ -1,0 +1,25 @@
+.btn-subir {
+  width: 4rem;
+  height: 4rem;
+  position: fixed;
+  right: 2rem;
+  bottom: 9rem;
+  background-color: var(--harvest-gold);
+  color: var(--ghostwhite);
+  border: none;
+  border-radius: 12px;
+  font-size: 2rem;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease, bottom 0.3s ease;
+  user-select: none;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-subir:hover {
+  background-color: var(--onyx);
+  color: var(--harvest-gold);
+}

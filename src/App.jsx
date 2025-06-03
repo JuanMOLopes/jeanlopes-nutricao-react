@@ -7,6 +7,7 @@ import Bio from "./sections/Bio/Bio";
 import Contato from "./sections/Contato/Contato";
 import Footer from "./components/Footer/Footer";
 
+import BtnSubir from "./components/BtnSubir/BtnSubir";
 import BtnContato from "./components/BtnContato/BtnContato";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Contato />
       <Footer />
 
+      <BtnSubir />
       <BtnContato />
     </>
   );
