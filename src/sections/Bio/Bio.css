@@ -1,0 +1,74 @@
+.bio {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 10%;
+  background: var(--harvest-gold);
+  background-image: url(/wave-haikei-light-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  gap: 2rem;
+  transition: background-color 0.3s ease;
+  height: 110vh;
+}
+
+.bio-image {
+  flex: 1 1 300px;
+  max-width: 400px;
+  text-align: center;
+  margin-top: -10rem;
+}
+
+.bio-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.bio-content {
+  flex: 2 1 500px;
+  color: var(--onyx);
+  margin-top: -10rem;
+}
+
+.bio-content h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.bio-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+/* Responsivo para telas menores */
+@media (max-width: 768px) {
+  .bio {
+    flex-direction: column;
+    padding: 2rem 5%;
+    text-align: center;
+  }
+
+  .bio-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .bio-content p {
+    font-size: 1.1rem;
+  }
+}
+
+/* Modo escuro */
+body.modo-escuro .bio {
+  background-image: url(/wave-haikei-dark-bottom.svg);
+}
+
+body.modo-escuro .bio-content {
+  color: var(--ghostwhite);
+}
