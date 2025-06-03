@@ -99,9 +99,7 @@ body.modo-escuro header {
   }
 
   header .navbar {
-    margin-right: 0;
-    justify-content: center;
-    gap: 0.75rem;
+    display: none;
   }
 }
 
@@ -117,5 +115,9 @@ body.modo-escuro header {
 
   header .logo .nome .p-nome {
     font-size: 1rem;
+  }
+
+  header .navbar {
+    display: none;
   }
 }

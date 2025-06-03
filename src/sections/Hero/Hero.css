@@ -54,11 +54,11 @@ body.modo-escuro .hero {
   }
 
   .hero-content h1 {
-    font-size: 2.2rem;
+    display: none;
   }
 
   .hero-content h2 {
-    font-size: 1.5rem;
+    display: none;
   }
 
   .hero-content p {
@@ -67,5 +67,6 @@ body.modo-escuro .hero {
 
   .hero-image {
     max-width: 80%;
+    margin-top: -2rem;
   }
 }
