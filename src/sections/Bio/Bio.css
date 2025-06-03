@@ -55,6 +55,8 @@
     height: auto;
     text-align: center;
     background-position: center bottom;
+
+    margin-top: -1rem;
   }
 
   .bio-image,

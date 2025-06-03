@@ -44,13 +44,14 @@ body.modo-escuro footer {
     height: auto;
     padding: 1rem;
     align-items: flex-start;
+
+    margin-top: -1rem;
   }
 
   footer img {
     margin-left: 0;
     margin-bottom: 0.5rem;
     margin-right: 1.5rem;
-
   }
 
   footer .contato {

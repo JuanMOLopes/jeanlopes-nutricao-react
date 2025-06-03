@@ -65,6 +65,8 @@ body.modo-escuro .contact {
     flex-direction: column;
     padding: 2rem 5%;
     align-items: center;
+
+    margin-top: -1rem;
   }
 
   .contact-info {
