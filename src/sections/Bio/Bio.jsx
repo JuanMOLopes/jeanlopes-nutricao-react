@@ -12,26 +12,25 @@ function Bio() {
         <div class="bio-content">
           <h1>Sobre mim</h1>
           <p>
-            Sou nutricionista formado pela Unicamp, com foco em nutrição clínica
-            voltada ao emagrecimento e à promoção da qualidade de vida. Atendo
-            pacientes presencialmente e online, com um cuidado sempre
-            personalizado. Durante minha formação, participei do CBCTA e
-            desenvolvi pesquisas sobre bebidas vegetais probióticas e compostos
-            antioxidantes com grãos germinados.
+            Sou nutricionista formado pela UNICAMP, com foco em nutrição clínica
+            voltada à qualidade de vida. <span style={{fontWeight: "bold"}}>Atendo de forma presencial e online</span>,
+            com um cuidado sempre individualizado.
           </p>
           <p>
             Minha abordagem é humanizada, baseada em ciência e livre de dietas
-            restritivas. Acredito que um bom acompanhamento nutricional deve
-            respeitar o tempo, as individualidades e os desejos de cada pessoa,
-            celebrando cada pequena conquista no caminho para uma vida mais
-            saudável.
+            restritivas. Acredito que a nutrição deve respeitar o tempo, as
+            necessidades e os desejos de cada pessoa — celebrando cada conquista
+            no caminho para uma vida mais saudável.
           </p>
           <p>
-            Ofereço diferenciais como planos alimentares não restritivos,
-            suporte via WhatsApp e um aplicativo exclusivo para facilitar a
-            rotina alimentar dos meus pacientes. Escolhi a nutrição por paixão —
-            porque acredito no poder da comida em transformar vidas, conectar
-            pessoas e promover bem-estar.
+            Ofereço diferenciais como planos alimentares flexíveis, suporte via
+            WhatsApp e um aplicativo exclusivo para facilitar a rotina
+            alimentar.
+          </p>
+          <p>
+            Escolhi a nutrição por paixão, porque acredito no poder dos
+            alimentos em transformar vidas, conectar pessoas e promover
+            bem-estar.
           </p>
           <CtaButton />
         </div>

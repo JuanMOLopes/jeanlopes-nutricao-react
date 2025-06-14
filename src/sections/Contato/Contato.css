@@ -23,6 +23,7 @@
 .contact-info p {
   font-size: 1.2rem;
   margin: 0.3rem 0;
+  line-height: 1.6;
 }
 
 .contact-buttons {
@@ -81,6 +82,7 @@ body.modo-escuro .contact {
 
   .contact-info p {
     font-size: 1.1rem;
+  
   }
 
   .social-links {
